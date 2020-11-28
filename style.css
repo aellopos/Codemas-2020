@@ -11,3 +11,9 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+    font-size: 76px;
+}
