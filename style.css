@@ -1,0 +1,13 @@
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    margin: 5% 25%;
+    background: url("obrazky/bg_codemas.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
