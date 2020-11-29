@@ -17,3 +17,61 @@ h1{
     color: white;
     font-size: 76px;
 }
+
+.prani {
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.osloveni, .podpis {
+    padding: 10% 0;
+    font-size: 30px;
+    color:#9F1515;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+
+.prani-text {
+    margin: 0 10%;
+}
+
+.pristi-rok-text {
+    margin: 0 10%;
+    padding: 10% 0;
+}
+
+.pristi-rok {
+    color: white;
+    background-color: #9F1515;
+    padding-bottom: 10%;
+}
+
+.pristi-rok-text-nadpis {
+    padding: 10% 0;
+    font-size: 30px;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+
+.pristi-rok-todo {
+    margin: 0 10%;
+}
+
+.pristi-rok-todo-polozka {
+    padding: 5%;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Dancing Script', cursive;
+}
+
+.galerie img {
+    width: 100%;
+    display: block;
+}
