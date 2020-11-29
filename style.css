@@ -1,7 +1,6 @@
 *, :after, :before { box-sizing: border-box; }
 
 body {
-    margin: 5% 25%;
     background: url("obrazky/bg_codemas.png");
     background-size: cover;
     background-position: center;
@@ -38,13 +37,19 @@ section {
     font-family: 'Dancing Script', cursive;
 }
 
+.podpis {
+    text-align: right;
+}
+
 .prani-text {
     margin: 0 10%;
+    text-align: justify;
 }
 
 .pristi-rok-text {
     margin: 0 10%;
     padding: 10% 0;
+    text-align: justify;
 }
 
 .pristi-rok {
@@ -74,4 +79,59 @@ section {
 .galerie img {
     width: 100%;
     display: block;
+}
+
+@media screen and (min-width: 850px) {
+    body {
+        padding: 0 20%;
+    }
+
+    .prani {
+        display: flex;
+    }
+
+    .prani img {
+        max-width: 50%;
+    }
+
+    .prani-text {
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pristi-rok {
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    .pristi-rok-text-nadpis {
+        padding: 5% 0;
+    }
+
+    .pristi-rok-text {
+        flex-basis: 45%;
+        margin: 0 5%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pristi-rok-todo {
+        flex-basis: 50%;
+        margin: 0 5%;
+    }
+
+    .galerie {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .galerie img {
+        width: calc(100% / 3);
+        
+    }
 }
