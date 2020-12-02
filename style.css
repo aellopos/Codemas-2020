@@ -3,7 +3,6 @@
 body {
     background: url("obrazky/bg_codemas.png");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0;
@@ -76,12 +75,22 @@ section {
     font-family: 'Dancing Script', cursive;
 }
 
-.galerie img {
+.foto {
+    position: relative;
     width: 100%;
     display: block;
+    height: 100%;
 }
 
-@media screen and (min-width: 850px) {
+.foto .popisek {
+    margin: 10px 0 20px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+	text-align: center;
+}
+
+@media screen and (min-width: 950px) {
     body {
         padding: 0 20%;
     }
@@ -127,11 +136,32 @@ section {
     .galerie {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
     }
 
-    .galerie img {
-        width: calc(100% / 3);
-        
+    .foto {
+        width: 33.3333%;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .foto:hover img {
+        transform: scale(1.15);
+    }
+
+    .foto .popisek {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        margin: 0;
+        padding: 10px 15px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 13px;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .foto:hover .popisek {
+        transform: translateY(0);
     }
 }
