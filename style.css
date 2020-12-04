@@ -17,10 +17,6 @@ h1{
     font-size: 76px;
 }
 
-.prani {
-    background-color: white;
-}
-
 img {
     width: 100%;
 }
@@ -37,6 +33,10 @@ section {
     font-family: 'Dancing Script', cursive;
 }
 
+.prani {
+    background-color: white;
+}
+
 .podpis {
     text-align: right;
 }
@@ -47,8 +47,7 @@ section {
 }
 
 .pristi-rok-text {
-    margin: 0 10%;
-    padding: 10% 0;
+    margin: 10%;
     text-align: justify;
 }
 
