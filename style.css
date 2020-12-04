@@ -25,29 +25,24 @@ section {
     margin-bottom: 20px;
 }
 
-.osloveni, .podpis {
-    padding: 10% 0;
-    font-size: 30px;
-    color:#9F1515;
-    display: block;
-    font-family: 'Dancing Script', cursive;
-}
-
 .prani {
     background-color: white;
 }
 
-.podpis {
+.prani-text-osloveni, .prani-text-podpis {
+    padding: 10% 0;
+    font-size: 30px;
+    color:#9F1515;
+    display: block;
+    font-family: 'Dancing Script';
+}
+
+.prani-text-podpis {
     text-align: right;
 }
 
 .prani-text {
     margin: 0 10%;
-    text-align: justify;
-}
-
-.pristi-rok-text {
-    margin: 10%;
     text-align: justify;
 }
 
@@ -64,6 +59,11 @@ section {
     font-family: 'Dancing Script', cursive;
 }
 
+.pristi-rok-text {
+    margin: 10%;
+    text-align: justify;
+}
+
 .pristi-rok-todo {
     margin: 0 10%;
 }
@@ -77,9 +77,7 @@ section {
 
 .foto {
     position: relative;
-    width: 100%;
     display: block;
-    height: 100%;
 }
 
 .foto .popisek {
