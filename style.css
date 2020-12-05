@@ -155,6 +155,10 @@ section {
         transition: 0.3s ease-in-out;
     }
 
+    .foto img {
+        transition: 0.3s ease-in-out;
+    }
+
     .foto:hover img {
         transform: scale(1.15);
     }
