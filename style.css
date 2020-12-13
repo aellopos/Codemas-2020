@@ -1,4 +1,8 @@
-*, :after, :before { box-sizing: border-box; }
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
 
 body {
     background: url("obrazky/bg_codemas.png");
@@ -10,7 +14,7 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-h1{
+h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: white;
@@ -29,10 +33,11 @@ section {
     background-color: white;
 }
 
-.prani-text-osloveni, .prani-text-podpis {
+.prani-text-osloveni,
+.prani-text-podpis {
     padding: 10% 0;
     font-size: 30px;
-    color:#9F1515;
+    color: #9F1515;
     display: block;
     font-family: 'Dancing Script';
 }
@@ -60,7 +65,7 @@ section {
 }
 
 .pristi-rok-text {
-    margin: 10%;
+    padding: 0 10%;
     text-align: justify;
 }
 
@@ -72,23 +77,22 @@ section {
     padding: 5%;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.2);
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script';
 }
 
 .foto {
     position: relative;
-    display: block;
 }
 
-.foto .popisek {
-    margin: 10px 0 20px 0;
+.popisek {
+    margin: 5% 0;
     color: white;
     font-weight: bold;
     font-size: 15px;
-	text-align: center;
+    text-align: center;
 }
 
-@media screen and (min-width: 950px) {
+@media (min-width: 950px) {
     body {
         padding: 0 20%;
     }
@@ -98,7 +102,7 @@ section {
     }
 
     .prani img {
-        max-width: 50%;
+        width: 50%;
     }
 
     .prani-text {
